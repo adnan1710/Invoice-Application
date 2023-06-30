@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px;
+}
+
+div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 95%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr{
+    font-weight: bold;
+    color: white;
+}
+
+#table1{
+    border: 10px solid #fc7500;
+}
+
+#table1_head tr th,
+#table1_body tr td {
+    text-align: center;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+
+#table1_body tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#table1_body tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+#table1_head tr th {
+    background-color: #8fd163;
+}
+
+
+#table2_head tr th {
+    background-color: #4fc4f7;
+}
+
+#table2_head tr th,
+#table2_body tr td {
+    text-align: center;
+    padding: 8px;
+}
+
+#table2 tr,
+#table2_body tr td{
+    border: 1px solid #abdc89;
+}
+
+#table2 *{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#table2{
+    margin-top: 70px;
+    padding: 0px;
+}
+
+#hrclogo{
+    margin: 20px 0px;
+    height: 70px;
+}

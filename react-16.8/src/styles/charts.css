@@ -1,0 +1,7 @@
+.chart-container {
+    width: 50%;
+    height: 400px;
+    border-radius: 5px;
+    color: white;
+    /* Set the text color to white */
+}

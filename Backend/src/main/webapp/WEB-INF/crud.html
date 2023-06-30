@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CRUD Operations</title>
+</head>
+
+<script>
+    function preventFormSubmit(event) {
+        event.preventDefault(); // Prevent the form from submitting
+    }
+</script>
+
+<body>
+
+	<h1>Adding Form</h1>
+	<form action="addservlet" method="POST">
+  		<label for="customerOrderID">Customer Order ID:</label>
+  		<input type="number" id="customerOrderID" name="customerOrderID" required><br>
+
+  		<label for="salesOrg">Sales Organization:</label>
+  		<input type="number" id="salesOrg" name="salesOrg" required><br>
+
+  		<label for="distributionChannel">Distribution Channel:</label>
+  		<input type="text" id="distributionChannel" name="distributionChannel" required><br>
+
+  		<label for="customerNumber">Customer Number:</label>
+  		<input type="number" id="customerNumber" name="customerNumber" required><br>
+
+  		<label for="companyCode">Company Code:</label>
+  		<input type="number" id="companyCode" name="companyCode" required><br>
+
+  		<label for="orderCurrency">Order Currency:</label>
+  		<input type="text" id="orderCurrency" name="orderCurrency" required><br>
+
+  		<label for="amountInUSD">Amount in USD:</label>
+  		<input type="number" id="amountInUSD" name="amountInUSD" step="0.01" required><br>
+
+  		<label for="orderAmount">Order Amount:</label>
+  		<input type="number" id="orderAmount" name="orderAmount" step="0.01" required><br>
+
+  		<label for="orderCreationDateStr">Order Creation Date:</label>
+  		<input type="text" id="orderCreationDate" name="orderCreationDate" required><br>
+
+  		<input type="submit" value="Submit">
+	</form>
+	
+	<h1>Deleting Form</h1>
+	<form action="deleteservlet" method="POST">
+  		<label for="slNo">Enter Serial No. of Row to be deleted :</label>
+  		<input type="number" id="slNo" name="slNo" required><br>
+
+  		<input type="submit" value="Submit" onsubmit="preventFormSubmit(event)">
+	</form>
+	
+	<h1>Updating Form</h1>
+	<form action="updateservlet" method="POST">
+	
+		<label for="slNo">Enter Serial No. of Row to be updated :</label>
+  		<input type="number" id="slNo" name="slNo" required><br>
+		
+  		<label for="customerOrderID">Customer Order ID:</label>
+  		<input type="number" id="customerOrderID" name="customerOrderID" required><br>
+
+  		<label for="salesOrg">Sales Organization:</label>
+  		<input type="number" id="salesOrg" name="salesOrg" required><br>
+
+  		<label for="distributionChannel">Distribution Channel:</label>
+  		<input type="text" id="distributionChannel" name="distributionChannel" required><br>
+
+  		<label for="customerNumber">Customer Number:</label>
+  		<input type="number" id="customerNumber" name="customerNumber" required><br>
+
+  		<label for="companyCode">Company Code:</label>
+  		<input type="number" id="companyCode" name="companyCode" required><br>
+
+  		<label for="orderCurrency">Order Currency:</label>
+  		<input type="text" id="orderCurrency" name="orderCurrency" required><br>
+
+  		<label for="amountInUSD">Amount in USD:</label>
+  		<input type="number" id="amountInUSD" name="amountInUSD" step="0.01" required><br>
+
+  		<label for="orderAmount">Order Amount:</label>
+  		<input type="number" id="orderAmount" name="orderAmount" step="0.01" required><br>
+
+  		<label for="orderCreationDateStr">Order Creation Date:</label>
+  		<input type="text" id="orderCreationDate" name="orderCreationDate" required><br>
+
+  		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
+

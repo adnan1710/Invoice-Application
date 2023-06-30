@@ -1,0 +1,68 @@
+/* .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.form{
+    width: 100%;
+}
+
+.grid-row{
+    padding: 15px;
+}
+
+.grid-row input{
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.span2 input{
+    width: 48%;
+}
+
+.span4 input{
+    width: 14.9%;
+    margin: 0px 10px;
+}
+
+.span2{
+    padding: 10px;
+}
+
+.span1 input,
+.span3 input{
+    width: 21%;
+    margin: 0px 15px;
+}
+.span1,
+.span3{
+    padding: 10px;
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btns Button{
+    width: 45vw;
+    height: 35px;
+    color: white;    
+}
+
+.submitBtn-Container Button{
+    background-color: #fc7500;
+}
+
+.clrBtn-Container Button{
+    background-color: #db4437;
+}
+
+.btns Button:hover{
+    background-color: #fc5209;
+}

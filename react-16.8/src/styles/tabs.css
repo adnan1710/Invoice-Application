@@ -1,0 +1,37 @@
+.Tabview {
+    display: flex;
+    flex-direction: column;
+    background-color: #666666;
+    color: white;
+    border-radius: 5px;
+}
+
+.tabs {
+    flex: 0 0 auto;
+}
+
+.search{
+    display: flex;
+    width: 20%;
+    height: 45px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+.search Button{
+    height: inherit;
+    background-color: greenyellow;
+    height: inherit;
+    width: 40%;
+}
+
+.search input{
+    height: inherit;
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 5px;
+    width: 70%;
+}

@@ -1,0 +1,48 @@
+.edit-window {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30vw;
+    height: 40vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fc7500;
+}
+
+.edit-window-buttons {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-window-buttons Button {
+    width: 49%;
+}
+
+.edit-window p {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.input-row fieldset {
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.input-row legend{
+    font-size: smaller;
+    font-weight: lighter;
+    color: grey;
+}
+
+.input-row{
+    padding: 10px;
+}
+
+.input-row input{
+    border-color: transparent;
+}

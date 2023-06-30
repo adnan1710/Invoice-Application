@@ -1,0 +1,82 @@
+.grid * {
+    color: white;
+    /* font-size:97%; */
+}
+
+.table-container {
+    height: 62vh;
+}
+
+.grid ::-webkit-scrollbar {
+    background-color: #666666;
+    border-radius: 2em;
+}
+
+.grid ::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 2em;
+}
+
+.grid ::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+
+.MuiDataGrid-footerContainer{
+    padding: 0px;
+}
+
+.footerBtns{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom:40px;
+}
+
+.footerBtns button{
+    height: 35px;
+    min-width: 100px;
+    background-color: #fc7500;
+    color: white;
+}
+
+.footerBtns button:hover{
+    background-color: #fb5900;
+}
+
+.predictBtn-container Button{
+    background-color: darkblue;
+}
+
+.predictBtn-container Button:hover{
+    background-color: rgb(0, 0, 82);
+}
+
+.delete-window {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    width: 30vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fc7500;
+}
+
+.delete-window-buttons {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-window-buttons Button {
+    width: 49%;
+}
+
+.confirm{
+    font-size: x-large;
+}

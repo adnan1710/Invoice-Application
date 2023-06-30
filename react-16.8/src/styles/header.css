@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.abc{
+    flex: 3;
+}
+
+.hrc {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+    flex: 4;
+}
+
+img{
+    height: 30px;
+}
+
+.text-content{
+    font-weight: 600;
+    font-size: large;
+    color: red;
+    padding: 5px 0px;
+}

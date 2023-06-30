@@ -1,0 +1,43 @@
+.Analytics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chart-container{
+    width: 80%;
+}
+
+.analyticsQuery {
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 35%;
+    height: 50%;
+    border: 3px solid white;
+}
+
+.submitBtn{
+    padding: 5px;
+}
+
+.submitBtn Button {
+    width: 100%;
+    color: white;
+    border-color: white;
+}
+
+.input-row input {
+    width: 100%;
+    height: 25px;
+}
+
+.input-row fieldset {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.input-row legend{
+    padding-top: 20px;
+}
